@@ -12,7 +12,7 @@
 		5BAD02201D9EBAC600204B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD021E1D9EBAC600204B95 /* Main.storyboard */; };
 		5BAD02221D9EBAC600204B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD02211D9EBAC600204B95 /* Assets.xcassets */; };
 		5BAD02251D9EBAC600204B95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD02231D9EBAC600204B95 /* LaunchScreen.storyboard */; };
-		5BAD023D1D9EBDBF00204B95 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD023C1D9EBDBF00204B95 /* Character.swift */; };
+		D3F414B81E4CE2660061A3D9 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD023C1D9EBDBF00204B95 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +33,7 @@
 		5BAD02211D9EBAC600204B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BAD02241D9EBAC600204B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BAD02261D9EBAC600204B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BAD022B1D9EBAC700204B95 /* AdventureTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventureTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BAD022B1D9EBAC700204B95 /* AdventureTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.dsym; includeInIndex = 0; path = AdventureTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAD023C1D9EBDBF00204B95 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,7 +139,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Flatiron School";
 				TargetAttributes = {
 					5BAD02161D9EBAC600204B95 = {
@@ -149,7 +149,7 @@
 					};
 					5BAD022A1D9EBAC700204B95 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = KXY9EDFTF5;
+						DevelopmentTeam = 56S3PA4JK8;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 5BAD02161D9EBAC600204B95;
 					};
@@ -199,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BAD023D1D9EBDBF00204B95 /* Character.swift in Sources */,
+				D3F414B81E4CE2660061A3D9 /* Character.swift in Sources */,
 				5BAD021D1D9EBAC600204B95 /* ViewController.swift in Sources */,
 				5BAD021B1D9EBAC600204B95 /* AppDelegate.swift in Sources */,
 			);
@@ -260,6 +260,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -309,6 +310,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -364,7 +366,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = KXY9EDFTF5;
+				DEVELOPMENT_TEAM = 56S3PA4JK8;
 				INFOPLIST_FILE = AdventureTimeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.AdventureTimeTests;
@@ -379,7 +381,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = KXY9EDFTF5;
+				DEVELOPMENT_TEAM = 56S3PA4JK8;
 				INFOPLIST_FILE = AdventureTimeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.AdventureTimeTests;
